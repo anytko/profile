@@ -1,1 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: #1e2d2f;
+}
+
+.navbar_container {
+    background-color: #f1ab86;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar_container .navbar-brand {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    text-shadow: -1px -1px 0 #1e2d2f, 1px -1px 0 #1e2d2f, -1px 1px 0 #1e2d2f, 1px 1px 0 #1e2d2f;
+    margin-left: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+}
+
+.navbar-brand:hover {
+    color: #1e2d2f; 
+}
+
+.nav-pills {
+    padding: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.nav-link {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.white-pill.nav-link {
+    background-color: white;
+    color: black;
+}
+
+.navbar_container .nav-pills .nav-link.active, 
+.navbar_container .nav-pills .nav-link.active:focus, 
+.navbar_container .nav-pills .nav-link.active:hover {
+    background-color: #1e2d2f; 
+    color: white; 
+}
+
+.tab_container {
+    padding-right: 0; 
+}
+
+.main_text{
+    color: white;
+}

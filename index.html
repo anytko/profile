@@ -7,9 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css">
-     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css">-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     <link rel="stylesheet" href="style.css">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     
   </head>
   <body>
@@ -20,6 +26,49 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+
+    <!-- Navbar --> 
+
+    <div class="navbar_container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-darksalmon">
+            <a class="navbar-brand" href="#">Alivia Nytko</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active white-pill" data-toggle="tab" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white-pill" data-toggle="tab" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link white-pill" data-toggle="tab" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+     </div>
+          
+    <!-- Tab panes -->
+    <div class="tab_container">
+        <div class="tab-content">
+            <div id="profile" class="container tab-pane active"><br>
+                <h3 class="main_text">Profile</h3>
+                <p class="main_text">This is the profile tab.</p>
+            </div>
+            <div id="projects" class="container tab-pane fade"><br>
+                <h3 class="main_text">Projects</h3>
+                <p class="main_text">This is the projects tab.</p>
+            </div>
+            <div id="contact" class="container tab-pane fade"><br>
+                <h3 class="main_text">Contact</h3>
+                <p class="main_text">This is the contact tab.</p>
+            </div>
+        </div>
+    </div>
+      
+      <!-- Bootstrap JS and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
   </body>
