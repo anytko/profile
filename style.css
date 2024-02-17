@@ -60,3 +60,57 @@ body {
 .main_text{
     color: white;
 }
+
+.first_block {
+    position: relative;
+    height: 800px;
+    background-color: #b7b7a4;
+    opacity: 0.7;
+    border-radius: 20px;
+    margin: 20px;
+    z-index: 1;
+}
+
+.first_int_block {
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+    margin: 20px; /* Add margin top and bottom */
+    flex-direction: row;
+    z-index: 2;
+    
+}
+
+.first_int_block .profile_image,
+.first_int_block .profile_text {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profile_image img {
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 800px; /* Set the height of the image */
+}
+
+.profile_text {
+    padding: 20px;
+    flex: 1; /* Allow the text to grow to fill available space */
+    color: white;
+}
+
+
+@media (max-width: 992px) {
+    .first_int_block {
+    flex-direction: column;
+    align-items: center;
+}}
+
+@media (max-width: 992px) {
+    .first_block {
+    height: 1200px;
+}}
+
+
+
