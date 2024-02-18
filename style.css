@@ -135,18 +135,63 @@
     color: white;
   }
   
-  @media (max-width: 992px) {
+  @media (max-width: 1005px) {
     .first_int_block {
       flex-direction: column;
       align-items: center;
     }
   }
   
-  @media (max-width: 992px) {
+  @media (max-width: 1005px) {
+    .first_block {
+      height: 1300px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .first_block {
+      height: 1000px;
+    }
+  }
+
+
+  @media (max-height: 1000px) {
     .first_block {
       height: 1200px;
     }
   }
+
+  @media (max-height: 950px) {
+    .first_block {
+      height: 1100px;
+    }
+  }
+
+  @media (max-height: 850px) {
+    .first_block {
+      height: 1000px;
+    }
+  }
+
+  @media (max-height: 800px) {
+    .first_block {
+      height: 950px;
+    }
+  }
+
+  @media (max-height: 750px) {
+    .first_block {
+      height: 900px;
+    }
+  }
+
+  @media (max-height: 700px) {
+    .first_block {
+      height: 850px;
+    }
+  }
+
+
   
   .intro_title {
     text-align: center;
@@ -164,17 +209,36 @@
     font-family: sans-serif;
   }
   
-  @media (min-width: 1850px) {
+  @media (min-width: 1520px) {
     .intro_title {
       font-size: 80px;
     }
   }
   
-  @media (min-width: 1850px) {
+  @media (min-width: 1450px) {
     .intro_text {
       font-size: 30px;
     }
   }
+
+  @media (max-width: 992px) {
+    .intro_title {
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+  }
+
+
+  @media (max-width: 992px) {
+    .intro_text {
+      margin-bottom: 4px;
+      font-size: calc(1vh + 1vw);
+    }
+  }
+
+
+
+
   
   .second_block {
     position: relative;
@@ -339,16 +403,21 @@
       1px 1px 0 white;
   }
   
-  .second_text {
+ /*.second_text{
     padding: 10px;
-    margin-bottom: -10px;
-  }
+}
+*/
 
-  .google_sch_icon{
+
+  .google_sch_icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-  }
+}
 
   .google_sch_icon a i.fa-google-scholar {
     color: #1e2d2f; /* Specify your desired color here */
@@ -367,8 +436,12 @@
 }
 
 .git_icon{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    margin-top: 57px;
+    margin-top: 10px;
     font-size: 20px;
   }
 
@@ -380,14 +453,69 @@
     color: #c57b57; /* Color when hovering */
 }
 
+.second_1_text {
+    padding: 10px;
+    position: relative; 
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(0.75vw + 0.75vh);
+  }
 
+  @media (min-width: 1150px) {
+    .second_1_text {
+      font-size: calc(0.48vw + 0.48vh);
+    }
+  }
+
+
+
+  .second_2_text {
+    padding: 10px;
+    position: relative; 
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(0.75vw + 0.75vh);
+  }
+
+  @media (min-width: 1300px) {
+    .second_2_text {
+      font-size: calc(0.6vw + 0.6vh);
+    }
+  }
+
+  .second_3_text {
+    padding: 10px;
+    position: relative; 
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(0.9vw + 0.9vh);
+  }
+
+  @media (min-width: 1300px) {
+    .second_3_text {
+      font-size: calc(0.8vw + 0.8vh);
+    }
+  }
 
   .eco_evo_text {
     padding: 30px;
-    margin-top: -24px;
+    margin-top: -28px;
     margin-bottom: -24px;
-    font-size: 14px;
+    font-size: 12px;
+    position: relative;
+    font-size: calc(0.5vw + 0.5vh);
+
   }
+
+  @media (min-width: 1300px) {
+    .eco_evo_text {
+      font-size: calc(0.4vw + 0.4vh);
+    }
+  }
+
 
 
   .data_text{
@@ -397,11 +525,13 @@
     font-size: 14px;
   }
 
-  .second_3_text{
-    padding: 10px;
-    margin-bottom: -10px;
-    font-size: 20px;
+ @media (max-width: 720px) {
+    .data_text {
+      font-size: calc(0.8vw + 0.8vh);
+    }
   }
+
+
   
   .dropdown-menu {
     display: none;
