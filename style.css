@@ -92,10 +92,11 @@ body {
 }
 
 .profile_image img {
-    width: auto;
+    max-width: 100%;
     border-radius: 20px;
     object-fit: cover;
-    height: 800px; /* Set the height of the image */
+    height: 80cqh;
+    /* height: 800px;  Set the height of the image */
     margin-top: 1cqh;
 }
 
@@ -220,6 +221,12 @@ body {
 
 }
 
+@media (max-width: 720px) {
+    .second_title {
+      font-size: 20px;
+    }
+  }
+
 .eco_image{
     position: relative;
     z-index: 1;
@@ -254,6 +261,7 @@ body {
     position: relative;
     width: 100%; 
     height: auto; 
+    z-index: 1;
 }
 
 .data_image img {
@@ -262,14 +270,7 @@ body {
     border-radius: 20px 20px 0 0; 
 }
 
-.data_image .second_title {
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #1e2d2f;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
+
 
 @media (max-width: 768px) {
     .data_image .second_title {
@@ -294,14 +295,7 @@ body {
     border-radius: 20px 20px 0 0; 
 }
 
-.software_image .second_title {
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #1e2d2f;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
+
 
 @media (max-width: 768px) {
     .software_image .second_title {
@@ -312,6 +306,20 @@ body {
         text-align: center; 
     }
 }
+
+
+.data_image .second_title,
+.software_image .second_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1e2d2f;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+
+
 
 .second_text {
     padding: 10px; 
