@@ -44,7 +44,7 @@ body {
 
 .white-pill.nav-link {
     background-color: white;
-    color: black;
+    color: #1e2d2f;
 }
 
 .navbar_container .nav-pills .nav-link.active, 
@@ -53,6 +53,7 @@ body {
     background-color: #1e2d2f; 
     color: white; 
 }
+
 
 .tab_container {
     padding-right: 0; 
@@ -232,7 +233,7 @@ body {
 }
 
 .eco_image .second_title {
-    position: absolute; /* Position absolutely within the .eco_image container */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,18 +252,18 @@ body {
 
 .data_image {
     position: relative;
-    width: 100%; /* Ensure the container takes the full width */
-    height: auto; /* Allow the container height to adjust based on content */
+    width: 100%; 
+    height: auto; 
 }
 
 .data_image img {
     width: 100%;
-    height: auto; /* Ensure the image maintains its aspect ratio */
-    border-radius: 20px 20px 0 0; /* Apply border radius if needed */
+    height: auto; 
+    border-radius: 20px 20px 0 0; 
 }
 
 .data_image .second_title {
-    position: absolute; /* Position absolutely within the .eco_image container */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -272,29 +273,29 @@ body {
 
 @media (max-width: 768px) {
     .data_image .second_title {
-        position: relative; /* Change to relative positioning on smaller screens */
-        bottom: auto; /* Reset bottom positioning */
-        left: auto; /* Reset left positioning */
-        transform: none; /* Reset transform */
-        text-align: center; /* Center text on smaller screens */
+        position: relative; 
+        bottom: auto; 
+        left: auto; 
+        transform: none; 
+        text-align: center; 
     }
 }
 
 
 .software_image {
     position: relative;
-    width: 100%; /* Ensure the container takes the full width */
-    height: auto; /* Allow the container height to adjust based on content */
+    width: 100%; 
+    height: auto; 
 }
 
 .software_image img {
     width: 100%;
-    height: auto; /* Ensure the image maintains its aspect ratio */
-    border-radius: 20px 20px 0 0; /* Apply border radius if needed */
+    height: auto; 
+    border-radius: 20px 20px 0 0; 
 }
 
 .software_image .second_title {
-    position: absolute; /* Position absolutely within the .eco_image container */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -304,10 +305,28 @@ body {
 
 @media (max-width: 768px) {
     .software_image .second_title {
-        position: relative; /* Change to relative positioning on smaller screens */
-        bottom: auto; /* Reset bottom positioning */
-        left: auto; /* Reset left positioning */
-        transform: none; /* Reset transform */
-        text-align: center; /* Center text on smaller screens */
+        position: relative; 
+        bottom: auto;
+        left: auto; 
+        transform: none; 
+        text-align: center; 
     }
+}
+
+.second_text {
+    padding: 10px; 
+}
+
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .nav-link {
+    background-color: #1e2d2f;
+    color: white;
 }
