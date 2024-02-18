@@ -330,3 +330,10 @@ body {
     background-color: #1e2d2f;
     color: white;
 }
+
+footer{
+    color: white;
+    text-align: center;
+    margin-bottom: 1cqh;
+    font-family: sans-serif;
+}
