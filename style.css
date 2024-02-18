@@ -218,7 +218,7 @@
   }
   
   .second_1_int_block {
-    border: #283618 solid 4px;
+    border: #b7b7a4 solid 4px;
   }
   
   .second_2_int_block {
@@ -264,7 +264,7 @@
   .eco_image img {
     width: 100%;
     height: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 17px 17px 0 0;
   }
   
   .eco_image .second_title {
@@ -293,7 +293,7 @@
   .data_image img {
     width: 100%;
     height: auto;
-    border-radius: 20px 20px 0 0;
+    border-radius: 17px 17px 0 0;
   }
   
   @media (max-width: 768px) {
@@ -315,7 +315,7 @@
   .software_image img {
     width: 100%;
     height: auto;
-    border-radius: 20px 20px 0 0;
+    border-radius: 17px 17px 0 0;
   }
   
   @media (max-width: 768px) {
@@ -343,6 +343,44 @@
     padding: 10px;
     margin-bottom: -10px;
   }
+
+  .google_sch_icon{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .google_sch_icon a i.fa-google-scholar {
+    color: #1e2d2f; /* Specify your desired color here */
+}
+
+.google_sch_icon a:hover i.fa-google-scholar {
+    color: #c57b57; /* Color when hovering */
+}
+
+.google_sch_icon a i.fa-researchgate {
+    color: #1e2d2f; /* Specify your desired color here */
+}
+
+.google_sch_icon a:hover i.fa-researchgate {
+    color: #c57b57; /* Color when hovering */
+}
+
+.git_icon{
+    text-align: center;
+    margin-top: 57px;
+    font-size: 20px;
+  }
+
+  .git_icon a i.fa-github {
+    color: #1e2d2f; /* Specify your desired color here */
+}
+
+.git_icon a:hover i.fa-github {
+    color: #c57b57; /* Color when hovering */
+}
+
+
 
   .eco_evo_text {
     padding: 30px;
