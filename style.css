@@ -453,6 +453,25 @@
     color: #c57b57; /* Color when hovering */
 }
 
+
+.contact_icon{
+    margin-left: 16px;
+    font-size: 26px;
+}
+
+.contact_icon a i.fa-linkedin {
+    color: white; /* Specify your desired color here */
+}
+
+.contact_icon a:hover i.fa-linkedin {
+    color: #f1ab86; /* Color when hovering */
+}
+
+
+
+
+
+
 .second_1_text {
     padding: 10px;
     position: relative; 
@@ -590,7 +609,14 @@
     text-align: center;
     font-size: 50px;
     font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
   }
+
+
   
   .all_entry {
     display: flex;
