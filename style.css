@@ -351,10 +351,12 @@ footer{
  
 }
 
-/*.form_container form{
-    display: flex;
-    flex-direction: column;
-} */
+.form_container form{
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+} 
+
 
 .title_flex {
     text-align: center;
@@ -373,6 +375,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    flex-grow: 1;
 }
 
 .form_text{
@@ -383,6 +386,9 @@ footer{
 .row_entry{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    flex: 1;
+    margin-right: 10px;
 
 }
 
@@ -391,9 +397,15 @@ footer{
 .email{
     display: flex;
     flex-direction: column;
+    justify-content: left;
 }
 
 .message{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex: 1;
+}
+
+.message_text{
+    color: white;
 }
