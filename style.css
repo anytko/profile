@@ -337,3 +337,63 @@ footer{
     margin-bottom: 1cqh;
     font-family: sans-serif;
 }
+
+
+.form_container{
+    margin: 20px;
+    margin-top: 4cqh;
+    border: #f1ab86 solid 8px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+/*.form_container form{
+    display: flex;
+    flex-direction: column;
+} */
+
+.title_flex {
+    text-align: center;
+
+}
+
+.third_title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.all_entry{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form_text{
+    color: white;
+}
+
+
+.row_entry{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first_name, 
+.last_name, 
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+}
