@@ -404,8 +404,20 @@ footer{
     display: flex;
     flex-direction: column;
     flex: 1;
+    position: relative;
+    width: 50%;
+    padding-bottom: 68px;
 }
 
 .message_text{
     color: white;
+}
+
+.send_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
