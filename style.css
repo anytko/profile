@@ -331,6 +331,19 @@ body {
     color: white;
 }
 
+.dropdown-menu a:active {
+    background-color: #1e2d2f;
+    color: white;
+}
+
+.nav-link.white-pill:hover,
+.nav-link.white-pill:active {
+    background-color: #1e2d2f;
+    color: white;
+}
+
+
+
 footer{
     color: white;
     text-align: center;
