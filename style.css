@@ -463,7 +463,8 @@
   
   @media (min-width: 1150px) {
     .second_1_text {
-      font-size: calc(0.56vw + 0.56vh);
+      font-size: calc(0.52vw + 0.52vh);
+      margin-top: -4px;
     }
   }
   
