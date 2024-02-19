@@ -42,22 +42,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 84px; 
+      margin-top: 84px;
     }
   
     .nav.nav-pills .nav-item {
-      margin-bottom: 10px; 
+      margin-bottom: 10px;
     }
   
     .nav.nav-pills .nav-link {
-      font-size: 16px; 
-      padding: 5px 10px; 
+      font-size: 16px;
+      padding: 5px 10px;
     }
   
     .navbar-brand {
       display: block;
       text-align: center;
-      margin-bottom: 20px; 
+      margin-bottom: 20px;
     }
   }
   
@@ -96,7 +96,7 @@
   
   .first_block {
     position: relative;
-    height: 80cqh;
+    height: 80vh !important;
     background-color: #b7b7a4;
     opacity: 0.7;
     border-radius: 20px;
@@ -109,7 +109,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin: 20px; 
+    margin: 20px;
     flex-direction: row;
     z-index: 2;
   }
@@ -128,19 +128,17 @@
     margin-top: 1cqh;
   }
   
-  .profile_text {
-    padding: 20px;
-    flex: 1; 
-    color: white;
-  }
-
-
-  @media (min-width: 1920px) {
-    .first_int_block {
-      height: 80cqh;
+  @media (max-width: 1005px) {
+    .profile_image img {
+      height: 74vh !important;
     }
   }
   
+  .profile_text {
+    padding: 20px;
+    flex: 1;
+    color: white;
+  }
   
   @media (max-width: 1005px) {
     .first_int_block {
@@ -151,54 +149,51 @@
   
   @media (max-width: 1005px) {
     .first_block {
-      height: 1400px;
+      height: 120vh !important;
     }
   }
-
+  
   @media (max-width: 720px) {
     .first_block {
       height: 1000px;
     }
   }
-
-
+  
   @media (max-height: 1000px) {
     .first_block {
       height: 1200px;
     }
   }
-
+  
   @media (max-height: 950px) {
     .first_block {
       height: 1100px;
     }
   }
-
+  
   @media (max-height: 850px) {
     .first_block {
       height: 1000px;
     }
   }
-
+  
   @media (max-height: 800px) {
     .first_block {
       height: 950px;
     }
   }
-
+  
   @media (max-height: 750px) {
     .first_block {
       height: 900px;
     }
   }
-
+  
   @media (max-height: 700px) {
     .first_block {
       height: 850px;
     }
   }
-
-
   
   .intro_title {
     text-align: center;
@@ -227,22 +222,27 @@
       font-size: 30px;
     }
   }
-
+  
   @media (max-width: 992px) {
     .intro_title {
       margin-top: 0;
       margin-bottom: 6px;
     }
   }
-
-
+  
+  @media (max-width: 900px) {
+    .intro_title {
+      font-size: 34px;
+      margin-top: -10px;
+    }
+  }
+  
   @media (max-width: 992px) {
     .intro_text {
       margin-bottom: 4px;
       font-size: calc(1vh + 1vw);
     }
   }
-
   
   .second_block {
     position: relative;
@@ -296,7 +296,6 @@
   .second_3_int_block {
     border: #c57b57 solid 4px;
   }
-  
   
   .second_title {
     text-align: center;
@@ -396,8 +395,6 @@
       1px 1px 0 white;
   }
   
-
-
   .google_sch_icon {
     position: absolute;
     bottom: 0;
@@ -406,25 +403,25 @@
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-}
-
+  }
+  
   .google_sch_icon a i.fa-google-scholar {
-    color: #1e2d2f; 
-}
-
-.google_sch_icon a:hover i.fa-google-scholar {
-    color: #c57b57; 
-}
-
-.google_sch_icon a i.fa-researchgate {
-    color: #1e2d2f; 
-}
-
-.google_sch_icon a:hover i.fa-researchgate {
-    color: #c57b57; 
-}
-
-.git_icon{
+    color: #1e2d2f;
+  }
+  
+  .google_sch_icon a:hover i.fa-google-scholar {
+    color: #c57b57;
+  }
+  
+  .google_sch_icon a i.fa-researchgate {
+    color: #1e2d2f;
+  }
+  
+  .google_sch_icon a:hover i.fa-researchgate {
+    color: #c57b57;
+  }
+  
+  .git_icon {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -433,81 +430,73 @@
     margin-top: 10px;
     font-size: 20px;
   }
-
+  
   .git_icon a i.fa-github {
-    color: #1e2d2f; 
-}
-
-.git_icon a:hover i.fa-github {
-    color: #c57b57; 
-}
-
-
-.contact_icon{
+    color: #1e2d2f;
+  }
+  
+  .git_icon a:hover i.fa-github {
+    color: #c57b57;
+  }
+  
+  .contact_icon {
     margin-left: 16px;
     font-size: 26px;
-}
-
-.contact_icon a i.fa-linkedin {
-    color: white; 
-}
-
-.contact_icon a:hover i.fa-linkedin {
-    color: #f1ab86; 
-}
-
-
-
-
-
-
-.second_1_text {
+  }
+  
+  .contact_icon a i.fa-linkedin {
+    color: white;
+  }
+  
+  .contact_icon a:hover i.fa-linkedin {
+    color: #f1ab86;
+  }
+  
+  .second_1_text {
     padding: 10px;
-    position: relative; 
+    position: relative;
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: calc(0.75vw + 0.75vh);
+    font-size: calc(0.78vw + 0.78vh);
   }
-
+  
   @media (min-width: 1150px) {
     .second_1_text {
-      font-size: calc(0.48vw + 0.48vh);
+      font-size: calc(0.56vw + 0.56vh);
     }
   }
-
-
-
+  
   .second_2_text {
     padding: 10px;
-    position: relative; 
+    position: relative;
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: calc(0.75vw + 0.75vh);
   }
-
+  
   @media (min-width: 1300px) {
     .second_2_text {
       font-size: calc(0.6vw + 0.6vh);
     }
   }
-
+  
   .second_3_text {
     padding: 10px;
-    position: relative; 
+    position: relative;
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: calc(0.9vw + 0.9vh);
   }
-
+  
   @media (min-width: 1300px) {
     .second_3_text {
       font-size: calc(0.8vw + 0.8vh);
     }
   }
-
+  
   .eco_evo_text {
     padding: 30px;
     margin-top: -28px;
@@ -515,31 +504,26 @@
     font-size: 12px;
     position: relative;
     font-size: calc(0.6vw + 0.6vh);
-
   }
-
+  
   @media (min-width: 1300px) {
     .eco_evo_text {
       font-size: calc(0.45vw + 0.45vh);
     }
   }
-
-
-
-  .data_text{
+  
+  .data_text {
     padding: 30px;
     margin-top: -24px;
     margin-bottom: -24px;
     font-size: 14px;
   }
-
- @media (max-width: 720px) {
+  
+  @media (max-width: 720px) {
     .data_text {
       font-size: calc(0.8vw + 0.8vh);
     }
   }
-
-
   
   .dropdown-menu {
     display: none;
@@ -603,10 +587,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 100%;
   }
-
-
   
   .all_entry {
     display: flex;
