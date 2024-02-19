@@ -463,7 +463,7 @@
   
   @media (min-width: 1150px) {
     .second_1_text {
-      font-size: calc(0.62vw + 0.62vh);
+      font-size: calc(0.64vw + 0.64vh);
     }
   }
   
@@ -478,7 +478,7 @@
   
   @media (min-width: 1300px) {
     .second_2_text {
-      font-size: calc(0.6vw + 0.6vh);
+      font-size: calc(0.64vw + 0.64vh);
     }
   }
   
@@ -508,7 +508,7 @@
   
   @media (min-width: 1300px) {
     .eco_evo_text {
-      font-size: calc(0.45vw + 0.45vh);
+      font-size: calc(0.48vw + 0.48vh);
     }
   }
   
