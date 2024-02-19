@@ -96,7 +96,7 @@
   
   .first_block {
     position: relative;
-    height: 60cqh;
+    height: 80cqh;
     background-color: #b7b7a4;
     opacity: 0.7;
     border-radius: 20px;
@@ -151,7 +151,7 @@
   
   @media (max-width: 1005px) {
     .first_block {
-      height: 1300px;
+      height: 1400px;
     }
   }
 
