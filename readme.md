@@ -1,5 +1,8 @@
 # Personal Profile Website
 
+## Hosting Link
+https://anytko.github.io/profile/
+
 ## Author
 - Alivia Nytko
 - anytko@vols.utk.edu
@@ -20,5 +23,3 @@ This website is designed to give users background information on Alivia's intere
 - [Feature 2]: Add additional functionality to the navigation bar and other elements using JavaScript.
 - [Feature 3]: Add addtional html files that can be linked through the navigation bar to take users to separate pages, rather than different areas within the same page.
 
-## Location 
-https://github.com/anytko/profile
