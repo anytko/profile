@@ -42,22 +42,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 84px; /* Adjust this value as needed */
+      margin-top: 84px; 
     }
   
     .nav.nav-pills .nav-item {
-      margin-bottom: 10px; /* Adjust this value as needed */
+      margin-bottom: 10px; 
     }
   
     .nav.nav-pills .nav-link {
-      font-size: 16px; /* Adjust this value as needed */
-      padding: 5px 10px; /* Adjust this value as needed */
+      font-size: 16px; 
+      padding: 5px 10px; 
     }
   
     .navbar-brand {
       display: block;
       text-align: center;
-      margin-bottom: 20px; /* Adjust this value as needed */
+      margin-bottom: 20px; 
     }
   }
   
@@ -109,7 +109,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin: 20px; /* Add margin top and bottom */
+    margin: 20px; 
     flex-direction: row;
     z-index: 2;
   }
@@ -125,13 +125,12 @@
     border-radius: 20px;
     object-fit: cover;
     height: 80cqh;
-    /* height: 800px;  Set the height of the image */
     margin-top: 1cqh;
   }
   
   .profile_text {
     padding: 20px;
-    flex: 1; /* Allow the text to grow to fill available space */
+    flex: 1; 
     color: white;
   }
   
@@ -236,13 +235,10 @@
     }
   }
 
-
-
-
   
   .second_block {
     position: relative;
-    height: 800px;
+    height: 740px;
     background-color: #c57b57;
     opacity: 0.65;
     border-radius: 20px;
@@ -293,17 +289,6 @@
     border: #c57b57 solid 4px;
   }
   
-  /* @media (max-width: 992px) {
-    .second_int_block {
-    flex-direction: column;
-    align-items: center;
-  }
-  .second_1_int_block,
-  .second_2_int_block,
-  .second_3_int_block{
-    margin-top: 2cqh;
-  }}
-  */
   
   .second_title {
     text-align: center;
@@ -403,10 +388,6 @@
       1px 1px 0 white;
   }
   
- /*.second_text{
-    padding: 10px;
-}
-*/
 
 
   .google_sch_icon {
@@ -420,19 +401,19 @@
 }
 
   .google_sch_icon a i.fa-google-scholar {
-    color: #1e2d2f; /* Specify your desired color here */
+    color: #1e2d2f; 
 }
 
 .google_sch_icon a:hover i.fa-google-scholar {
-    color: #c57b57; /* Color when hovering */
+    color: #c57b57; 
 }
 
 .google_sch_icon a i.fa-researchgate {
-    color: #1e2d2f; /* Specify your desired color here */
+    color: #1e2d2f; 
 }
 
 .google_sch_icon a:hover i.fa-researchgate {
-    color: #c57b57; /* Color when hovering */
+    color: #c57b57; 
 }
 
 .git_icon{
@@ -446,11 +427,11 @@
   }
 
   .git_icon a i.fa-github {
-    color: #1e2d2f; /* Specify your desired color here */
+    color: #1e2d2f; 
 }
 
 .git_icon a:hover i.fa-github {
-    color: #c57b57; /* Color when hovering */
+    color: #c57b57; 
 }
 
 
@@ -460,11 +441,11 @@
 }
 
 .contact_icon a i.fa-linkedin {
-    color: white; /* Specify your desired color here */
+    color: white; 
 }
 
 .contact_icon a:hover i.fa-linkedin {
-    color: #f1ab86; /* Color when hovering */
+    color: #f1ab86; 
 }
 
 

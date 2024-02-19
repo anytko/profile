@@ -2,7 +2,7 @@
 
 ## User Story 1
 
-As a potential employer, I want to be able to access Alivia's CV and linkedin profile so that I can see if evaluate her qualifications and suitability for potential job opportunities. 
+As a potential employer, I want to be able to access Alivia's CV and linkedin profile so that I can evaluate her qualifications and suitability for potential job opportunities. 
 
 ## User Story 2
 
