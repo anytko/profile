@@ -458,13 +458,12 @@
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: calc(0.78vw + 0.78vh);
+    font-size: calc(0.86vw + 0.86vh);
   }
   
   @media (min-width: 1150px) {
     .second_1_text {
-      font-size: calc(0.52vw + 0.52vh);
-      margin-top: -4px;
+      font-size: calc(0.62vw + 0.62vh);
     }
   }
   
@@ -504,7 +503,7 @@
     margin-bottom: -24px;
     font-size: 12px;
     position: relative;
-    font-size: calc(0.6vw + 0.6vh);
+    font-size: calc(0.66vw + 0.66vh);
   }
   
   @media (min-width: 1300px) {
