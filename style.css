@@ -306,12 +306,6 @@
     z-index: 2;
   }
   
-  @media (max-width: 720px) {
-    .second_title {
-      font-size: 20px;
-    }
-  }
-  
   .eco_image {
     position: relative;
     z-index: 1;
@@ -558,7 +552,7 @@
   
   .form_container {
     margin: 20px;
-    margin-top: 4cqh;
+    margin-top: 5vh;
     border: #f1ab86 solid 8px;
     border-radius: 20px;
     padding: 10px;
@@ -638,5 +632,158 @@
     font-size: 20px;
     padding: 10px;
     border-radius: 10px;
+  }
+  
+  .profile_image {
+    /* Increase the size of the image container */
+    width: 80%; /* Adjust as needed */
+  }
+  
+  .profile_image img {
+    /* Increase the size of the image */
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    justify-content: center;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .profile_image img {
+      max-height: 400px; /* Adjust the max-height for xs screens */
+    }
+  }
+  
+  .custom-container {
+    padding: 20px;
+  }
+  
+  .background-container {
+    background-color: #b7b7a4;
+    opacity: 0.7;
+    border-radius: 20px;
+    position: absolute;
+    top: 3vh;
+    bottom: 3vh;
+    left: 2vw;
+    width: calc(100% - 4vw);
+    height: 95%;
+    z-index: -1;
+  }
+  
+  @media (min-width: 768px) {
+    .profile_text {
+      margin-left: -4vw;
+    }
+  }
+  
+  .first-container {
+    background-color: bisque;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    border: #b7b7a4 solid 4px;
+    margin-bottom: 20px;
+    z-index: 3;
+  }
+  
+  .second-container {
+    background-color: bisque;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    border: #1e2d2f solid 4px;
+    margin-bottom: 20px;
+    z-index: 3;
+  }
+  
+  .third-container {
+    background-color: bisque;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    border: #c57b57 solid 4px;
+    margin-bottom: 20px;
+    z-index: 3;
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-4 {
+      padding-bottom: 10px; /* Adjust as needed */
+    }
+  }
+  
+  .eco_image {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .eco_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 17px 17px 0 0;
+  }
+  
+  @media (min-width: 768px) {
+    .eco_image img {
+      height: 70%;
+    }
+  }
+  
+  .eco_image .second_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1e2d2f;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+      1px 1px 0 white;
+  }
+  
+  @media (max-width: 768px) {
+    .first-container img {
+      max-height: 200px; /* Adjust this value as needed */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .second-container img {
+      max-height: 200px; /* Adjust this value as needed */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .third-container img {
+      max-height: 200px; /* Adjust this value as needed */
+    }
+  }
+  
+  .second_block {
+    position: relative;
+    height: 740px;
+    background-color: #c57b57;
+    opacity: 0.65;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 5cqh;
+    z-index: 2;
+  }
+  
+  .container {
+    position: relative;
+    margin-top: 3vh;
+  }
+  
+  .second_block {
+    position: absolute;
+    background-color: #c57b57;
+    opacity: 0.65;
+    border-radius: 20px;
+    width: 100%;
+    height: calc(100% + 4vh); /* Adjust as needed */
+    top: -2vh;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
   }
   

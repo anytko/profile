@@ -1,252 +1,326 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Personal Profile</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css">-->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="style.css">
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/62c9bf1fd4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/62c9bf1fd4.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <style>
+      .custom-container {
+        margin-left: auto; /* Center the container */
+        margin-right: auto; /* Center the container */
+        padding-left: 10px; /* Adjust as needed */
+        padding-right: 10px; /* Adjust as needed */
+        max-width: 100%; /* Ensures container doesn't exceed screen width */
+      }
+    </style>
   </head>
   <body>
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- Navbar -->
 
-
-  <!-- Navbar --> 
-
-  <div class="navbar_container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-darksalmon">
-        <a class="navbar-brand" href="#image">Alivia Nytko
-            <i class="fa-brands fa-pagelines"></i>
+    <div class="navbar_container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-darksalmon">
+        <a class="navbar-brand" href="#image"
+          >Alivia Nytko
+          <i class="fa-brands fa-pagelines"></i>
         </a>
 
         <ul class="nav nav-pills">
-
-            <li class="nav-item dropdown">
-                <a class="nav-link white-pill dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Profile
-                </a>
-                <div class="dropdown-menu" aria-labelledby="profileDropdown">
-                  <a class="dropdown-item" href="CV_Alivia_Nytko_copy.pdf" target="_blank">CV</a>
-                </div>
-              </li>
-
           <li class="nav-item dropdown">
-            <a class="nav-link white-pill dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#eco-evo">Eco-Evo Research</a>
-                <a class="dropdown-item" href="#data_science">Data Science</a>
-                <a class="dropdown-item" href="#software-engineering">Software Engineering</a>
+            <a
+              class="nav-link white-pill dropdown-toggle"
+              href="#"
+              id="profileDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Profile
+            </a>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a
+                class="dropdown-item"
+                href="CV_Alivia_Nytko_copy.pdf"
+                target="_blank"
+                >CV</a
+              >
             </div>
-        </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link white-pill"  href="#contact_info">Contact</a>
-
           </li>
 
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link white-pill dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Projects</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#eco-evo">Eco-Evo Research</a>
+              <a class="dropdown-item" href="#data_science">Data Science</a>
+              <a class="dropdown-item" href="#software-engineering"
+                >Software Engineering</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link white-pill" href="#contact_info">Contact</a>
+          </li>
         </ul>
       </nav>
- </div>
-  
-          
- 
-    <div class="first_int_block">
-        <div class="profile_image" id="image">
-            <img src="profile_pic.png" alt="Profile Picture" height="600">
+    </div>
+
+    <div class="container custom-container position-relative">
+      <div class="row align-items-center">
+        <!-- Profile Image -->
+        <div
+          class="col-md-6 align-items-center text-center mb-3 mb-md-0 ms-md-3 d-flex justify-content-center mt-3 mt-md-0 mt-xs-5"
+        >
+          <div class="profile_image" id="image">
+            <img
+              src="profile_pic.png"
+              alt="Profile Picture"
+              class="img-fluid img-xl img-xxl"
+            />
+          </div>
         </div>
-        <div class="profile_text">
-        
+        <!-- Profile Text -->
+        <div class="col-md-6 mb-3 ms-md-1">
+          <div class="profile_text">
             <div class="intro_block">
-            <h1 class="intro_title"> Using big data to advance Eco-Evo theory</h1>
-        </div>
-
-                <p class="intro_text">Utilizing open-source ecological data across hundreds of habitats and thousands of species allows for broad inference in eco-evolutionary dynamics. Currently, rare species are categorized by their range size, habitat specificity, and local population size; however, phylogenetic history and functional traits also play a large part in defining rarity. My work focuses on providing an eco-evolutionary synthesis of rarity to characterize the organismal strategies of species varying in geographic, phylogenetic, and functional trait rarity. I also aim to create software that leverages big data and machine learning to predict patterns of invasiveness, rarity, and ecosystem function.</p>
-        </div>
-    </div>
-    <div class="first_block"></div>
-    
-
-    <div class="second_int_container">
-        <div class="second_int_block">
-            <div class="second_1_int_block" id="eco-evo">
-                <div class="eco_image">
-                    <img src="eucalyptus.jpg" alt="Eucalyptus">
-                    <a href="#">
-                        <h2 class="second_title">Ecology & Evolution</h2>
-                    </a>
-                </div>
-                <p class="second_1_text">Through the creation of 3 axes of rarity (geographic, phylogenetic, functional) and the utilization of big data, we have categorized over 5,000 plant species into 1 of 8 organismal strategies. These include: 
-                </p>
-                    <ul class="eco_evo_text">
-                        <li> Adaptable Survivor </li> 
-                        <li>Common</li> 
-                        <li>Competitively Rare</li> 
-                        <li>Classically Rare</li> 
-                        <li>Endemic</li>
-                        <li>Indicator </li>
-                        <li>Potentially Invasive</li> 
-                        <li>Relict </li>
-                    </ul>
-                <p class="second_1_text"> These classifications can be used to predict invasiveness, recategorize community function, and challenge what it means to be "rare".
-                </p>
-                <div class="google_sch_icon">
-                    <a href="https://scholar.google.com/citations?hl=en&user=1VtM4GcAAAAJ" target="_blank">
-                        <i class="fa-brands fa-google-scholar"></i>
-                    </a>
-
-                    <a href="https://www.researchgate.net/profile/Alivia-Nytko" target="_blank">
-                        <i class="fa-brands fa-researchgate"></i>
-                    </a>
-
-                </div>
+              <h1 class="intro_title">
+                Using big data to advance Eco-Evo theory
+              </h1>
             </div>
-
-
-            <div class="second_2_int_block" id="data_science">
-                <div class="data_image">
-                    <img src="data_science.jpg" alt="Data Science">
-
-                    <a href="#">
-                        <h2 class="second_title">Data Science</h2>
-                    </a>
-
-                </div>
-                <p class="second_2_text">The development and deployment of tools used to gather, structure, manipulate, and interpret data is key to advancing science. I've worked to build and establish an R package that utilizes open source databases to make the eco-evo functional categorization of rare species publically available. I plan to continue to develop packages in R and Python that leverage data from sources such as: </p>
-                <ul class="data_text">
-                    <li> Global Biodiversity Information Facility (GBIF) </li> 
-                    <li>TRY Plant Trait Database</li> 
-                    <li>Forest Inventory and Analysis (FIA)</li>
-                </ul>
-
-                <div class="git_icon">
-                    <a href="https://github.com/anytko" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="second_3_int_block" id="software-engineering">
-                <div class="software_image">
-                    <img src="software.jpg" alt="Software Engineering">
-                    <a href="#">
-                        <h2 class="second_title"> Software Engineering</h2>
-                    </a>
-
-                </div>
-                <p class="second_3_text">Learning can be fun too! I am currently working to advance both my front- and backend skills to develop ed-tech solutions to environmental education. Specifically, I am interested in developing web and mobile applications that utilize and emphasize aspects of game-based learning, user community, and place-based approaches to biological education.</p>
-
-
-                <div class="git_icon">
-                    <a href="https://github.com/anytko" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
+            <p class="intro_text">
+              Utilizing open-source ecological data across hundreds of habitats
+              and thousands of species allows for broad inference in
+              eco-evolutionary dynamics. Currently, rare species are categorized
+              by their range size, habitat specificity, and local population
+              size; however, phylogenetic history and functional traits also
+              play a large part in defining rarity. My work focuses on providing
+              an eco-evolutionary synthesis of rarity to characterize the
+              organismal strategies of species varying in geographic,
+              phylogenetic, and functional trait rarity. I also aim to create
+              software that leverages big data and machine learning to predict
+              patterns of invasiveness, rarity, and ecosystem function.
+            </p>
+          </div>
         </div>
-        
+      </div>
+      <!-- Empty Background Container -->
+      <div class="background-container"></div>
     </div>
 
-    
-
-    <div class="second_block"></div>
-
+    <div class="container">
+      <div class="row">
+        <!-- First container -->
+        <div class="col-md-4 position-relative">
+          <div class="first-container">
+            <div class="eco_image">
+              <img src="eucalyptus.jpg" alt="Eucalyptus" />
+              <a href="#">
+                <h2 class="second_title">Ecology & Evolution</h2>
+              </a>
+            </div>
+            <!-- Content of the first container -->
+            <p class="second_1_text">
+              Through the creation of 3 axes of rarity (geographic,
+              phylogenetic, functional) and the utilization of big data, we have
+              categorized over 5,000 plant species into 1 of 8 organismal
+              strategies. These include:
+            </p>
+            <ul class="eco_evo_text">
+              <li>Adaptable Survivor</li>
+              <li>Common</li>
+              <li>Competitively Rare</li>
+              <li>Classically Rare</li>
+              <li>Endemic</li>
+              <li>Indicator</li>
+              <li>Potentially Invasive</li>
+              <li>Relict</li>
+            </ul>
+            <p class="second_1_text">
+              These classifications can be used to predict invasiveness,
+              recategorize community function, and challenge what it means to be
+              "rare".
+            </p>
+            <div class="google_sch_icon">
+              <a
+                href="https://scholar.google.com/citations?hl=en&user=1VtM4GcAAAAJ"
+                target="_blank"
+              >
+                <i class="fa-brands fa-google-scholar"></i>
+              </a>
+              <a
+                href="https://www.researchgate.net/profile/Alivia-Nytko"
+                target="_blank"
+              >
+                <i class="fa-brands fa-researchgate"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Second container -->
+        <div class="col-md-4 position-relative">
+          <div class="second-container">
+            <div class="data_image">
+              <img src="data_science.jpg" alt="Data Science" />
+              <a href="#">
+                <h2 class="second_title">Data Science</h2>
+              </a>
+            </div>
+            <!-- Content of the second container -->
+            <p class="second_2_text">
+              The development and deployment of tools used to gather, structure,
+              manipulate, and interpret data is key to advancing science. I've
+              worked to build and establish an R package that utilizes open
+              source databases to make the eco-evo functional categorization of
+              rare species publicly available. I plan to continue to develop
+              packages in R and Python that leverage data from sources such as:
+            </p>
+            <ul class="data_text">
+              <li>Global Biodiversity Information Facility (GBIF)</li>
+              <li>TRY Plant Trait Database</li>
+              <li>Forest Inventory and Analysis (FIA)</li>
+            </ul>
+            <div class="git_icon">
+              <a href="https://github.com/anytko" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Third container -->
+        <div class="col-md-4 position-relative">
+          <div class="third-container">
+            <div class="software_image">
+              <img src="software.jpg" alt="Software Engineering" />
+              <a href="#">
+                <h2 class="second_title">Software Engineering</h2>
+              </a>
+            </div>
+            <!-- Content of the third container -->
+            <p class="second_3_text">
+              Learning can be fun too! I am currently working to advance both my
+              front- and backend skills to develop ed-tech solutions to
+              environmental education. Specifically, I am interested in
+              developing web and mobile applications that utilize and emphasize
+              aspects of game-based learning, user community, and place-based
+              approaches to biological education.
+            </p>
+            <div class="git_icon">
+              <a href="https://github.com/anytko" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second block -->
+      <div class="second_block"></div>
+    </div>
 
     <div class="form_container" id="contact_info">
-        <form action="https://formspree.io/f/mvoeadwv" method="POST">
-            <div class="title_flex">
-                <h2 class="third_title" id="contact_me">Contact Me
+      <form action="https://formspree.io/f/mvoeadwv" method="POST">
+        <div class="title_flex">
+          <h2 class="third_title" id="contact_me">Contact Me</h2>
 
-                </h2>
+          <div class="contact_icon">
+            <a
+              href="https://www.linkedin.com/in/alivia-nytko-1a8b00271/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
 
-                <div class="contact_icon">
-                    <a href="https://www.linkedin.com/in/alivia-nytko-1a8b00271/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
+        <div class="all_entry">
+          <div class="row_entry">
+            <div class="first_name">
+              <label for="first_name" class="form_text">First Name</label>
+              <input type="text" id="first_name" name="first_name" required />
+            </div>
 
-            </div>    
-    
-            <div class="all_entry">
-                <div class="row_entry">
-                    <div class="first_name">
-                        <label for="first_name" class="form_text">First Name</label>
-                        <input type="text" id="first_name" name="first_name" required>
-                    </div>
-            
-                    <div class="last_name">
-                        <label for="last_name" class="form_text">Last Name</label>
-                        <input type="text" id="last_name" name="last_name" required>
-                    </div>
-            
-                    <div class="email">
-                        <label for="email" class="form_text">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </div>
-    
+            <div class="last_name">
+              <label for="last_name" class="form_text">Last Name</label>
+              <input type="text" id="last_name" name="last_name" required />
+            </div>
 
-                <div class="message">
-                    <label for="message" class="message_text">Message</label>
-                    <textarea id="message" name="message" required></textarea>
+            <div class="email">
+              <label for="email" class="form_text">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
 
+          <div class="message">
+            <label for="message" class="message_text">Message</label>
+            <textarea id="message" name="message" required></textarea>
 
-                    <div class="send_button">
-                        <button type="submit" class="btn btn-outline-light btn-lg">Send</button>
-                    </div>
-
-
-                </div>
-
-                </div>
-        </form>
+            <div class="send_button">
+              <button type="submit" class="btn btn-outline-light btn-lg">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
-    
-    
-    
-    
 
+    <footer>© Copyright 2024 Alivia Nytko. All rights reserved.</footer>
 
-
-
-    
-<footer>
-    © Copyright 2024 Alivia Nytko. All rights reserved.
-</footer>
-
-
-
-      <!-- Bootstrap JS and jQuery -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
