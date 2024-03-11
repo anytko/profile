@@ -5,6 +5,7 @@
   
   body {
     background-color: #1e2d2f;
+    background: linear-gradient(to bottom right, #1e2d2f, #472d30);
   }
   
   .navbar_container {

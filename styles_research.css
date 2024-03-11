@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(#d6d6c2, #435c60);
+  }
+  
+  .navbar_container_research {
+    background-color: #1e2d2f;
+    width: 100%;
+  }
+  
+  .navbar_container_research .navbar-brand_research {
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+  }
+  
+  .navbar-brand_research:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #c57b57, 1px -1px 0 #c57b57, -1px 1px 0 #c57b57,
+      1px 1px 0 #c57b57;
+  }
+  
+  .nav-pills {
+    padding: 20px;
+    position: absolute;
+    right: 0;
+  }
+  
+  @media (max-width: 810px) {
+    .nav.nav-pills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 84px;
+    }
+  
+    .nav.nav-pills .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .nav.nav-pills .nav-link {
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+  
+    .navbar-brand {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .navbar_container .navbar-brand {
+      margin-left: -6px;
+      margin-top: -4px;
+    }
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+    font-size: 26px;
+    font-family: sans-serif;
+  }
+  
+  .white-pill.nav-link {
+    background-color: white;
+    color: #1e2d2f;
+  }
+  
+  .nav-pills .nav-link {
+    color: #1e2d2f; /* Set text color to black */
+    background-color: white; /* Set background color to white */
+  }
+  
+  /* Set styles for active nav pills */
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link:focus,
+  .nav-pills .nav-link:hover {
+    color: white; /* Set text color to white */
+    background-color: #c57b57; /* Set background color to black */
+  }
+  
+  /* Set styles for hover */
+  .nav-pills .nav-link:hover {
+    background-color: #c57b57; /* Change background color to gray on hover */
+    color: #1e2d2f; /* Change text color to black on hover */
+  }
+  
+  .title_heading {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
+    font-size: 50px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  
+  .timer {
+    background-color: white;
+    border-radius: 20px;
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .timer_text {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+  }
+  
+  .iucn {
+    background-color: #1e2d2f;
+    border-radius: 20px;
+    opacity: 0.80;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .api_text {
+    color: white; 
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+  }
+  
