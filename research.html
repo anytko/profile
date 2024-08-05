@@ -99,27 +99,57 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <!-- First container -->
-            <div class="timer">
-              <p class="timer_text">
-                A rare species becomes extinct every 20 minutes
-              </p>
+            <div class="col-md-6">
+                <!-- First container -->
+                <div class="timer">
+                    <p class="timer_text">
+                        A rare species becomes extinct every 20 minutes
+                    </p>
+                  
+                    <div class="parent_timer row justify-content-center" id="parent_timer"> 
+                      <div class="col-md-6 d-flex justify-content-center justify-content-md-end align-items-center count_down" id="timer_count">
+                          <!-- Timer goes here -->
+                      </div>
+                  
+                      <div class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-center plant_wilt" id="plant_wilt">
+                          <i class="fas fa-seedling plant"></i>
+                          <!-- Wilted plant goes here -->
+                      </div>
+                  </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <!-- Second container -->
-            <div class="iucn">
-              <p class="api_text">IUCN estimates __% of species are rare</p>
+            <div class="col-md-6">
+                <!-- Second container -->
+                <div class="iucn">
+                    <p class="api_text">IUCN estimates __% of species are rare</p>
+
+                    <div class="iucn_form">
+                      <label for="speciesDropdown">Select species:</label>
+                      <input type="text" id="speciesInput">
+                      <select id="speciesDropdown"></select>
+                      <table id="resultTable" style="display: none;">
+                          <thead>
+                              <tr>
+                                  <th>Scientific Name</th>
+                                  <th>IUCN Red List Category</th>
+                              </tr>
+                          </thead>
+                          <tbody></tbody>
+                      </table>
+                  </div>
+                  
+
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
       
 
     <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="main.js"></script>
   </body>
 </html>

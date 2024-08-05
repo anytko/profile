@@ -141,3 +141,44 @@
     font-size: 200%;
   }
   
+  .count_down {
+    text-align: center;
+    font-size: 70px;
+  }
+
+
+
+@keyframes color-change-animation {
+  0% {
+    color: green; /* Initial color */
+  }
+  50% {
+    color: yellowgreen; /* Intermediate color */
+  }
+  100% {
+    color: red; /* Final color */
+  }
+}
+
+/* Apply animation to the icon */
+.plant_wilt .plant {
+  animation: color-change-animation 120s linear forwards; /* Duration: 120s (2 minutes) */
+}
+
+.parent_timer{
+  display: flex;
+}
+
+.plant_wilt {
+  font-size: 60px;
+}
+
+.iucn_form{
+  color: white;
+  text-align: center;
+  margin-top: 4vh;
+  font-size: 26px;
+}
+
+
+
