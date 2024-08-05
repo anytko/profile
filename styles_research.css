@@ -162,7 +162,7 @@
 
 /* Apply animation to the icon */
 .plant_wilt .plant {
-  animation: color-change-animation 120s linear forwards; /* Duration: 120s (2 minutes) */
+  animation: color-change-animation 1200s linear forwards; /* Duration: 120s (2 minutes) */
 }
 
 .parent_timer{
